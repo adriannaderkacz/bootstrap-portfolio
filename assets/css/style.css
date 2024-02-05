@@ -1,8 +1,28 @@
+.navbar-brand {
+    font-family: "Lobster", sans-serif;
+}
+
+.nav-item {
+    font-family: "Cabin", sans-serif;
+}
+
 h1 {
     font-family: "Lobster", sans-serif;
 }
 
+h2, h4, h5 {
+    font-family: "Cabin", sans-serif;
+}
 .img-fluid {
     width: 40px;
     height: auto;
-  }
+}
+
+.footer-link {
+    color: #777;
+}
+
+.footer-link:hover {
+    color: #ffffff;
+    text-decoration: underline;
+}

@@ -1,3 +1,7 @@
+.navbar {
+    background-color: #ffffff8d;
+}
+
 .navbar-brand {
     font-family: "Lobster", sans-serif;
 }
@@ -18,8 +22,49 @@ h2, h4, h5 {
     height: auto;
 }
 
+.profilePic {
+    min-width: 200px; /* Adjust as needed */
+    height: auto; /* Maintain aspect ratio */
+}
+
+.img-fluid {
+    min-width: 100%; /* Make the image fill the column */
+    height: auto; /* Maintain aspect ratio */
+    max-width: none; /* Override max-width if necessary */
+}
+
+.card-text {
+    font-family: "Cabin", sans-serif;
+    color:#777;  
+}
+
+.btn.btn-primary {
+    background-color: #777;
+    border-color: #777;
+    border-radius: 15px;
+    font-family: "Cabin", sans-serif;
+    font-size: 14px;
+}
+  
+.btn.btn-primary:hover, 
+.btn.btn-primary:focus {
+    background-color: #000;
+    border-color: #000;
+    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.2);
+}
+
+.page-section {
+    padding-bottom: 60px;
+}
+
+.footer {
+    font-family: "Cabin", sans-serif;
+    font-weight: 50;
+}
+
 .footer-link {
     color: #777;
+    text-decoration: none;
 }
 
 .footer-link:hover {
